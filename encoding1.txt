@@ -1,0 +1,33 @@
+public class Encoding {
+	
+	public static void main(String[] args)
+	{
+		String letter = "";
+		
+	       System.out.println("acp = " + letter("acp"));
+	        System.out.println(letter);
+
+	        System.out.println();
+
+	        int[] freq = frequencies("Hello there! Apple!");
+	        for (int i = 0; i < freq.length; i++) {
+	            System.out.println(((char)('a' + i)) + ":" + freq[i]);
+	        }
+
+	    
+
+		
+		System.out.println(letter);
+	}
+
+	private static String letter(String string) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	private static int[] frequencies(String string) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+		
+}
